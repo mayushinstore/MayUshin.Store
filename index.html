@@ -1,99 +1,93 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>May UshinStore | Arte, diseño y cultura amazónica</title>
-<meta name="description" content="May UshinStore: productos artesanales, textiles y diseños con identidad amazónica.">
-<style>
-:root{--red:#c9262c;--ink:#171717;--soft:#f7f4f1;--line:#e9e2dc;--brown:#8a5b48}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
-.top{font-size:13px;padding:10px 5%;display:flex;justify-content:space-between;border-bottom:1px solid #eee;gap:15px;flex-wrap:wrap}
-header{padding:17px 5%;display:flex;align-items:center;gap:24px;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;z-index:10}
-.logo{font-weight:900;font-size:30px;line-height:.72;color:var(--red);letter-spacing:-2px;min-width:115px}.logo span{display:block;color:#111;font-size:14px;letter-spacing:2px;text-align:center;margin-top:8px}
-.search{flex:1;display:flex;border:1px solid #ddd;border-radius:6px;overflow:hidden}.search input{flex:1;padding:13px;border:0;font-size:15px;outline:none}.search button,.buy{background:var(--red);color:white;border:0;padding:0 22px;font-weight:700;cursor:pointer}
-.actions{display:flex;gap:18px;white-space:nowrap;font-size:14px}
-nav{display:flex;gap:30px;padding:14px 5%;justify-content:center;border-bottom:1px solid #eee}nav a{text-decoration:none;color:#111}nav a:first-child{color:var(--red);font-weight:700}
-.hero{min-height:470px;padding:55px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#f7eee7,#fff);position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;right:-80px;top:-100px;width:55%;height:150%;background:linear-gradient(135deg,#efe2d7,#cbb4a4);opacity:.5;transform:rotate(-8deg)}
-.hero-content{max-width:610px;position:relative;z-index:1}.eyebrow{font-style:italic;font-size:30px}.hero h1{font-size:64px;color:var(--red);margin:8px 0}.hero p{font-size:19px;line-height:1.5;max-width:600px}.cta{display:inline-block;background:var(--red);color:white;padding:15px 26px;border-radius:28px;text-decoration:none;font-weight:700}
-.hero-art{position:absolute;right:8%;width:38%;max-width:500px;height:350px;z-index:1;border-radius:18px;overflow:hidden;box-shadow:0 15px 45px #0002}.hero-art img{width:100%;height:100%;object-fit:cover;object-position:center 35%}
-.cats{display:grid;grid-template-columns:repeat(6,1fr);gap:15px;padding:35px 6%;text-align:center}.catbox{display:flex;flex-direction:column;align-items:center;cursor:pointer}.caticon{width:80px;height:80px;border-radius:50%;background:#eee;display:grid;place-items:center;font-size:34px;margin-bottom:10px;border:1px solid var(--line)}
-section.products{padding:25px 5%}.title{font-size:30px;border-left:5px solid var(--red);padding-left:12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid #e5e5e5;border-radius:8px;overflow:hidden;background:#fff}.photo{height:280px;background:#eee;display:grid;place-items:center}.photo img{width:100%;height:100%;object-fit:cover}.cardbody{padding:15px}.price{color:var(--red);font-size:20px;font-weight:800}.buy{width:100%;padding:11px;border-radius:5px;margin-top:10px}
-.benefits{display:grid;grid-template-columns:repeat(4,1fr);padding:28px 6%;background:#fafafa;margin-top:35px;text-align:center}.benefits b{display:block;margin-top:8px}
-.banner{margin:35px 5%;padding:45px;background:linear-gradient(100deg,#eadbcf,#fff);display:flex;justify-content:center;align-items:center;text-align:center}.banner h2{font-size:38px;margin:0}.script{color:var(--red);font-size:32px;font-style:italic}
-footer{background:#111;color:#fff;padding:45px 6%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px}.footer-logo{font-size:35px;color:#fff;font-weight:900}.footer-logo span{display:block;color:#fff;font-size:12px;letter-spacing:2px}
-@media(max-width:900px){.top{display:none}header{flex-wrap:wrap}.search{order:3;flex-basis:100%}.actions{font-size:12px}nav{overflow:auto;justify-content:flex-start}.hero h1{font-size:45px}.hero-art{opacity:.45;right:3%;width:55%}.cats{grid-template-columns:repeat(3,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr);gap:25px}footer{grid-template-columns:1fr}}
-@media(max-width:520px){header{padding:15px}.actions{display:none}.cats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.hero{padding:40px 7%}.hero h1{font-size:42px}.hero:after{display:none}.hero-art{display:none}}
-</style>
-</head>
-<body>
-<div class="top"><span>🚚 Envíos a todo el Perú</span><span>🌿 Identidad amazónica</span><span>🎧 Atención personalizada</span><span>💬 +51 960 743 474</span></div>
+MAY
+USHIN
+.STORE
+Buscar cojines, collares, lienzos o diseños...
+🔍
+👤 Mi cuenta
+🛒 Carrito
+Inicio
+Catálogo
+Nuevos productos
+Ofertas
+Nosotros
+Contacto
+Diseños que cuentan
+UNA HISTORIA
+En May UshinStore encuentras piezas con color, identidad y creatividad, inspiradas en el arte y la tradición amazónica.
 
-<header>
-  <a href="#inicio" class="logo">MAY<br>USHIN<span>.STORE</span></a>
-  <div class="search"><input id="searchInput" placeholder="Buscar cojines, collares, lienzos o diseños..." oninput="filterProducts()"><button onclick="filterProducts()">🔍</button></div>
-  <div class="actions"><span>👤 Mi cuenta</span><span>🛒 Carrito</span></div>
-</header>
+Ver catálogo →
+Colección May UshinStore
+🛋️
+Cojines
+Diseños únicos
+📿
+Collares
+Arte para llevar
+🖼️
+Lienzos
+Arte decorativo
+🎨
+Diseños
+Colores y patrones
+🧵
+Textiles
+Tradición y detalle
+🎁
+Ofertas
+Consulta novedades
+Productos destacados
+Cojines y diseños textiles
+Cojines artesanales
+Diseños coloridos con identidad amazónica.
 
-<nav>
-<a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#nuevos">Nuevos productos</a><a href="#ofertas">Ofertas</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
-</nav>
+Consultar precio
+💬 Consultar por WhatsApp
+Collares y accesorios May UshinStore
+Collares y accesorios
+Piezas para complementar tu estilo.
 
-<main>
-<section class="hero" id="inicio">
-  <div class="hero-content">
-    <div class="eyebrow">Diseños que cuentan</div>
-    <h1>UNA HISTORIA</h1>
-    <p>En May UshinStore encuentras piezas con color, identidad y creatividad, inspiradas en el arte y la tradición amazónica.</p>
-    <a class="cta" href="#catalogo">Ver catálogo →</a>
-  </div>
-  <div class="hero-art"><img src="imagenes/catalogo_1.jpeg" alt="Colección May UshinStore"></div>
-</section>
+Consultar precio
+💬 Consultar por WhatsApp
+Lienzos y textiles decorativos
+Lienzos y textiles
+Arte decorativo y diseños tradicionales.
 
-<div class="cats">
-  <div class="catbox" onclick="focusCategory('cojines')"><div class="caticon">🛋️</div><b>Cojines</b><small>Diseños únicos</small></div>
-  <div class="catbox" onclick="focusCategory('collares')"><div class="caticon">📿</div><b>Collares</b><small>Arte para llevar</small></div>
-  <div class="catbox" onclick="focusCategory('lienzos')"><div class="caticon">🖼️</div><b>Lienzos</b><small>Arte decorativo</small></div>
-  <div class="catbox"><div class="caticon">🎨</div><b>Diseños</b><small>Colores y patrones</small></div>
-  <div class="catbox"><div class="caticon">🧵</div><b>Textiles</b><small>Tradición y detalle</small></div>
-  <div class="catbox" id="ofertas"><div class="caticon">🎁</div><b>Ofertas</b><small>Consulta novedades</small></div>
-</div>
+Consultar precio
+💬 Consultar por WhatsApp
+🚚
+Envíos a todo el Perú
+Consulta cobertura
+🌿
+Identidad amazónica
+Diseños con historia
+💳
+Múltiples métodos de pago
+Consulta opciones
+🎧
+Atención personalizada
+Estamos para ayudarte
+Arte para cada espacio,
+cada estilo, cada historia...
+May UshinStore
+Sobre May UshinStore
+May UshinStore reúne productos inspirados en la riqueza visual y cultural de la Amazonía. Nuestra propuesta combina color, tradición y diseño en piezas para vestir, decorar y regalar.
 
-<section class="products" id="catalogo">
-<h2 class="title">Productos destacados</h2>
-<div class="grid" id="productGrid">
-<article class="card" data-category="cojines"><div class="photo"><img src="imagenes/catalogo_1.jpeg" alt="Cojines y diseños textiles"></div><div class="cardbody"><h3>Cojines artesanales</h3><p>Diseños coloridos con identidad amazónica.</p><div class="price">Consultar precio</div><button class="buy" onclick="whatsapp('Cojines artesanales')">💬 Consultar por WhatsApp</button></div></article>
-<article class="card" data-category="collares"><div class="photo"><img src="imagenes/catalogo_2.jpeg" alt="Collares y accesorios May UshinStore"></div><div class="cardbody"><h3>Collares y accesorios</h3><p>Piezas para complementar tu estilo.</p><div class="price">Consultar precio</div><button class="buy" onclick="whatsapp('Collares y accesorios')">💬 Consultar por WhatsApp</button></div></article>
-<article class="card" data-category="lienzos"><div class="photo"><img src="imagenes/catalogo_3.jpeg" alt="Lienzos y textiles decorativos"></div><div class="cardbody"><h3>Lienzos y textiles</h3><p>Arte decorativo y diseños tradicionales.</p><div class="price">Consultar precio</div><button class="buy" onclick="whatsapp('Lienzos y textiles')">💬 Consultar por WhatsApp</button></div></article>
-</div>
-</section>
+¿Te gustó algún diseño?
+Consulta disponibilidad, precios, tallas y opciones de entrega.
 
-<div class="benefits" id="nuevos"><div>🚚<b>Envíos a todo el Perú</b><small>Consulta cobertura</small></div><div>🌿<b>Identidad amazónica</b><small>Diseños con historia</small></div><div>💳<b>Múltiples métodos de pago</b><small>Consulta opciones</small></div><div>🎧<b>Atención personalizada</b><small>Estamos para ayudarte</small></div></div>
+💬 WhatsApp 📷 Instagram
+MAY
+USHIN
+.STORE
+Arte • Diseño • Identidad amazónica
 
-<div class="banner"><div><h2>Arte para cada espacio,<br>cada estilo, cada historia...</h2><div class="script">May UshinStore</div></div></div>
+Enlaces rápidos
+Inicio
+Catálogo
+Nosotros
+Contacto
 
-<section id="nosotros" style="padding:55px 7%;background:#faf7f4"><h2 class="title">Sobre May UshinStore</h2><p style="font-size:18px;line-height:1.7;max-width:850px">May UshinStore reúne productos inspirados en la riqueza visual y cultural de la Amazonía. Nuestra propuesta combina color, tradición y diseño en piezas para vestir, decorar y regalar.</p></section>
-
-<section id="contacto" style="padding:55px 7%;text-align:center"><h2>¿Te gustó algún diseño?</h2><p>Consulta disponibilidad, precios, tallas y opciones de entrega.</p><a class="cta" href="https://wa.me/51960743474?text=Hola%20May%20UshinStore%2C%20quiero%20consultar%20por%20un%20producto." target="_blank">💬 WhatsApp</a> <a class="cta" style="background:#111" href="https://www.instagram.com/mayushin.store2025/" target="_blank">📷 Instagram</a></section>
-</main>
-
-<footer>
-<div><div class="footer-logo">MAY<br>USHIN<span>.STORE</span></div><p>Arte • Diseño • Identidad amazónica</p></div>
-<div><h3>Enlaces rápidos</h3><p>Inicio<br>Catálogo<br>Nosotros<br>Contacto</p></div>
-<div><h3>Contáctanos</h3><p>WhatsApp: +51 960 743 474<br>Instagram: @mayushin.store2025<br>Perú</p></div>
-</footer>
-
-<script>
-function whatsapp(product){location.href='https://wa.me/51960743474?text='+encodeURIComponent('Hola May UshinStore, quiero consultar por: '+product);}
-function filterProducts(){
- const q=document.getElementById('searchInput').value.toLowerCase();
- document.querySelectorAll('.card').forEach(c=>c.style.display=c.innerText.toLowerCase().includes(q)?'block':'none');
-}
-function focusCategory(cat){
- document.querySelectorAll('.card').forEach(c=>c.style.display=c.dataset.category===cat?'block':'none');
- document.getElementById('catalogo').scrollIntoView({behavior:'smooth'});
-}
-</script>
-</body>
-</html>
+Contáctanos
+WhatsApp: +51 960 743 474
+Instagram: @mayushin.store2025
+Perú
